@@ -85,13 +85,13 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+/*Enlace Directo/Externo*/
 .ED {
     text-decoration: none;
     color: #276A9B;
 }
 
-
+/*Para dispositivos con un ancho máximo de 600px*/
 @media (max-width: 600px) {
     body {
         padding: 8px;
