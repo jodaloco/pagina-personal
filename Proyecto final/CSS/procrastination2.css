@@ -1,3 +1,4 @@
+/*Selector de Título*/
 h1 {
     color: #2563EB;
     text-align: center;
@@ -7,13 +8,13 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     
 }
-
+/*Selector del contenido visible*/
 body {
     background-color: #F8FAFC;
     color: #334155;
     font-family: Arial, sans-serif;
 }
-
+/*Selector de div*/
 .contenedor {
     max-width: 1000px;
     margin: 40px auto;
@@ -34,7 +35,7 @@ body {
     margin: 25px 0;
     box-shadow: 0 2px 6px rgba(30, 58, 95, 0.08);
 }
-
+/*Selector de imágen*/
 img {
     display: block;
     margin: 30px auto;
@@ -46,11 +47,11 @@ img {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
-
+/*Regla para hacer visible un elemento cuando se le pasa el cursor encima*/
 .oculto:hover {
     opacity: 1;
 }
-
+/*Para dispositivos con un ancho máximo de 600px*/
 @media (max-width: 600px) {
     body {
         padding: 8px;
